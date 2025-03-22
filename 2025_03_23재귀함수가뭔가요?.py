@@ -6,6 +6,8 @@ from collections import deque
 # print = sys.stdout.write
 # limit_number = 5000000
 # sys.setrecursionlimit(limit_number) # 재귀제한 해제
+# 깊이 들어간후 return되면 chat_bot뒤의 코드가 순차적으로 실행
+# (2, 1) (2, 2) (2, 3) => (2, 3) (2, 2) (2, 1) 뒷코드 출력
 repeat = int(input())
 c = 0
 check = False
