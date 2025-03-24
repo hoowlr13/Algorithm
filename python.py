@@ -8,4 +8,9 @@ from collections import deque
 # sys.setrecursionlimit(limit_number) # 재귀제한 해제
 
 N,M = list(map(int, input().split()))
-print(N + M)
+if N > M:
+    print(">")
+elif N < M:
+    print("<")
+else:
+    print("==")
