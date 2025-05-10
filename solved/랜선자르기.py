@@ -15,8 +15,6 @@ while start <= end:
         end = mid -1
 print(max(answer))
     
-                
-        
 """
 1. 자를 랜선을 가장긴 랜선길이에 비교
 2. 만약 가장짧은 랜선길이에 포함된다면 전부 나눠서 cnt세기  
